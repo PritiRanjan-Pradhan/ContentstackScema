@@ -15369,6 +15369,49 @@
                             },
                             "isDeprecated": false,
                             "deprecationReason": null
+                        },
+                        {
+                            "name": "logInImage",
+                            "description": null,
+                            "args": [
+                                {
+                                    "name": "preview",
+                                    "description": null,
+                                    "type": {
+                                        "kind": "SCALAR",
+                                        "name": "Boolean",
+                                        "ofType": null
+                                    },
+                                    "defaultValue": null
+                                },
+                                {
+                                    "name": "locale",
+                                    "description": null,
+                                    "type": {
+                                        "kind": "SCALAR",
+                                        "name": "String",
+                                        "ofType": null
+                                    },
+                                    "defaultValue": null
+                                },
+                                {
+                                    "name": "where",
+                                    "description": null,
+                                    "type": {
+                                        "kind": "INPUT_OBJECT",
+                                        "name": "ImageWithFocalPointFilter",
+                                        "ofType": null
+                                    },
+                                    "defaultValue": null
+                                }
+                            ],
+                            "type": {
+                                "kind": "OBJECT",
+                                "name": "ImageWithFocalPoint",
+                                "ofType": null
+                            },
+                            "isDeprecated": false,
+                            "deprecationReason": null
                         }
                     ],
                     "inputFields": null,
@@ -62766,6 +62809,16 @@
                             "defaultValue": null
                         },
                         {
+                            "name": "logInImage",
+                            "description": null,
+                            "type": {
+                                "kind": "INPUT_OBJECT",
+                                "name": "cfImageWithFocalPointNestedFilter",
+                                "ofType": null
+                            },
+                            "defaultValue": null
+                        },
+                        {
                             "name": "sys",
                             "description": null,
                             "type": {
@@ -63063,6 +63116,16 @@
                         },
                         {
                             "name": "authModelPlusCategories_exists",
+                            "description": null,
+                            "type": {
+                                "kind": "SCALAR",
+                                "name": "Boolean",
+                                "ofType": null
+                            },
+                            "defaultValue": null
+                        },
+                        {
+                            "name": "logInImage_exists",
                             "description": null,
                             "type": {
                                 "kind": "SCALAR",
