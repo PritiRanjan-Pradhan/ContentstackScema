@@ -10533,7 +10533,7 @@
                                     "description": null,
                                     "type": {
                                         "kind": "INPUT_OBJECT",
-                                        "name": "LinkFilter",
+                                        "name": "LinkCollectionFilter",
                                         "ofType": null
                                     },
                                     "defaultValue": null
@@ -10541,7 +10541,7 @@
                             ],
                             "type": {
                                 "kind": "OBJECT",
-                                "name": "Link",
+                                "name": "LinkCollection",
                                 "ofType": null
                             },
                             "isDeprecated": false,
@@ -19205,73 +19205,6 @@
                             "deprecationReason": null
                         },
                         {
-                            "name": "teamMemberCardContainerCollection",
-                            "description": null,
-                            "args": [
-                                {
-                                    "name": "skip",
-                                    "description": null,
-                                    "type": {
-                                        "kind": "SCALAR",
-                                        "name": "Int",
-                                        "ofType": null
-                                    },
-                                    "defaultValue": "0"
-                                },
-                                {
-                                    "name": "limit",
-                                    "description": null,
-                                    "type": {
-                                        "kind": "SCALAR",
-                                        "name": "Int",
-                                        "ofType": null
-                                    },
-                                    "defaultValue": "100"
-                                },
-                                {
-                                    "name": "preview",
-                                    "description": null,
-                                    "type": {
-                                        "kind": "SCALAR",
-                                        "name": "Boolean",
-                                        "ofType": null
-                                    },
-                                    "defaultValue": null
-                                },
-                                {
-                                    "name": "locale",
-                                    "description": null,
-                                    "type": {
-                                        "kind": "SCALAR",
-                                        "name": "String",
-                                        "ofType": null
-                                    },
-                                    "defaultValue": null
-                                },
-                                {
-                                    "name": "order",
-                                    "description": null,
-                                    "type": {
-                                        "kind": "LIST",
-                                        "name": null,
-                                        "ofType": {
-                                            "kind": "ENUM",
-                                            "name": "LinkLinkingCollectionsTeamMemberCardContainerCollectionOrder",
-                                            "ofType": null
-                                        }
-                                    },
-                                    "defaultValue": null
-                                }
-                            ],
-                            "type": {
-                                "kind": "OBJECT",
-                                "name": "TeamMemberCardContainerCollection",
-                                "ofType": null
-                            },
-                            "isDeprecated": false,
-                            "deprecationReason": null
-                        },
-                        {
                             "name": "simpleNavigationCollection",
                             "description": null,
                             "args": [
@@ -19744,89 +19677,6 @@
                     "inputFields": null,
                     "interfaces": [],
                     "enumValues": null,
-                    "possibleTypes": null
-                },
-                {
-                    "kind": "ENUM",
-                    "name": "LinkLinkingCollectionsTeamMemberCardContainerCollectionOrder",
-                    "description": null,
-                    "fields": null,
-                    "inputFields": null,
-                    "interfaces": null,
-                    "enumValues": [
-                        {
-                            "name": "adminTitle_ASC",
-                            "description": null,
-                            "isDeprecated": false,
-                            "deprecationReason": null
-                        },
-                        {
-                            "name": "adminTitle_DESC",
-                            "description": null,
-                            "isDeprecated": false,
-                            "deprecationReason": null
-                        },
-                        {
-                            "name": "title_ASC",
-                            "description": null,
-                            "isDeprecated": false,
-                            "deprecationReason": null
-                        },
-                        {
-                            "name": "title_DESC",
-                            "description": null,
-                            "isDeprecated": false,
-                            "deprecationReason": null
-                        },
-                        {
-                            "name": "sys_id_ASC",
-                            "description": null,
-                            "isDeprecated": false,
-                            "deprecationReason": null
-                        },
-                        {
-                            "name": "sys_id_DESC",
-                            "description": null,
-                            "isDeprecated": false,
-                            "deprecationReason": null
-                        },
-                        {
-                            "name": "sys_publishedAt_ASC",
-                            "description": null,
-                            "isDeprecated": false,
-                            "deprecationReason": null
-                        },
-                        {
-                            "name": "sys_publishedAt_DESC",
-                            "description": null,
-                            "isDeprecated": false,
-                            "deprecationReason": null
-                        },
-                        {
-                            "name": "sys_firstPublishedAt_ASC",
-                            "description": null,
-                            "isDeprecated": false,
-                            "deprecationReason": null
-                        },
-                        {
-                            "name": "sys_firstPublishedAt_DESC",
-                            "description": null,
-                            "isDeprecated": false,
-                            "deprecationReason": null
-                        },
-                        {
-                            "name": "sys_publishedVersion_ASC",
-                            "description": null,
-                            "isDeprecated": false,
-                            "deprecationReason": null
-                        },
-                        {
-                            "name": "sys_publishedVersion_DESC",
-                            "description": null,
-                            "isDeprecated": false,
-                            "deprecationReason": null
-                        }
-                    ],
                     "possibleTypes": null
                 },
                 {
@@ -63583,7 +63433,7 @@
                             "description": null,
                             "type": {
                                 "kind": "INPUT_OBJECT",
-                                "name": "cfLinkNestedFilter",
+                                "name": "cfLinkCollectionNestedFilter",
                                 "ofType": null
                             },
                             "defaultValue": null
