@@ -14968,7 +14968,7 @@
                             "deprecationReason": null
                         },
                         {
-                            "name": "blogDescription",
+                            "name": "enhancedRichText",
                             "description": null,
                             "args": [
                                 {
@@ -16688,7 +16688,7 @@
                             "defaultValue": null
                         },
                         {
-                            "name": "blogDescription_exists",
+                            "name": "enhancedRichText_exists",
                             "description": null,
                             "type": {
                                 "kind": "SCALAR",
@@ -16698,7 +16698,7 @@
                             "defaultValue": null
                         },
                         {
-                            "name": "blogDescription",
+                            "name": "enhancedRichText",
                             "description": null,
                             "type": {
                                 "kind": "SCALAR",
@@ -16708,7 +16708,7 @@
                             "defaultValue": null
                         },
                         {
-                            "name": "blogDescription_not",
+                            "name": "enhancedRichText_not",
                             "description": null,
                             "type": {
                                 "kind": "SCALAR",
@@ -16718,7 +16718,7 @@
                             "defaultValue": null
                         },
                         {
-                            "name": "blogDescription_in",
+                            "name": "enhancedRichText_in",
                             "description": null,
                             "type": {
                                 "kind": "LIST",
@@ -16732,7 +16732,7 @@
                             "defaultValue": null
                         },
                         {
-                            "name": "blogDescription_not_in",
+                            "name": "enhancedRichText_not_in",
                             "description": null,
                             "type": {
                                 "kind": "LIST",
@@ -16746,7 +16746,7 @@
                             "defaultValue": null
                         },
                         {
-                            "name": "blogDescription_contains",
+                            "name": "enhancedRichText_contains",
                             "description": null,
                             "type": {
                                 "kind": "SCALAR",
@@ -16756,7 +16756,7 @@
                             "defaultValue": null
                         },
                         {
-                            "name": "blogDescription_not_contains",
+                            "name": "enhancedRichText_not_contains",
                             "description": null,
                             "type": {
                                 "kind": "SCALAR",
@@ -68326,7 +68326,7 @@
                             "defaultValue": null
                         },
                         {
-                            "name": "blogDescription_exists",
+                            "name": "enhancedRichText_exists",
                             "description": null,
                             "type": {
                                 "kind": "SCALAR",
@@ -68336,7 +68336,7 @@
                             "defaultValue": null
                         },
                         {
-                            "name": "blogDescription",
+                            "name": "enhancedRichText",
                             "description": null,
                             "type": {
                                 "kind": "SCALAR",
@@ -68346,7 +68346,7 @@
                             "defaultValue": null
                         },
                         {
-                            "name": "blogDescription_not",
+                            "name": "enhancedRichText_not",
                             "description": null,
                             "type": {
                                 "kind": "SCALAR",
@@ -68356,7 +68356,7 @@
                             "defaultValue": null
                         },
                         {
-                            "name": "blogDescription_in",
+                            "name": "enhancedRichText_in",
                             "description": null,
                             "type": {
                                 "kind": "LIST",
@@ -68370,7 +68370,7 @@
                             "defaultValue": null
                         },
                         {
-                            "name": "blogDescription_not_in",
+                            "name": "enhancedRichText_not_in",
                             "description": null,
                             "type": {
                                 "kind": "LIST",
@@ -68384,7 +68384,7 @@
                             "defaultValue": null
                         },
                         {
-                            "name": "blogDescription_contains",
+                            "name": "enhancedRichText_contains",
                             "description": null,
                             "type": {
                                 "kind": "SCALAR",
@@ -68394,7 +68394,7 @@
                             "defaultValue": null
                         },
                         {
-                            "name": "blogDescription_not_contains",
+                            "name": "enhancedRichText_not_contains",
                             "description": null,
                             "type": {
                                 "kind": "SCALAR",
